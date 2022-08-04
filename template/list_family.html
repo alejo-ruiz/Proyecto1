@@ -1,4 +1,5 @@
-
-<h2>El nombre:{{new_family.name}}</h2>
+{% for familys in familys %}
+<h1>El nombre:{{new_family.name}}</h1>
 <h2>El apellido:{{new_family.last_name}}</h2>
 <h2>La edad es:{{new_family.years}}</h2>
+{% endfor %}
